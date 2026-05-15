@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Sovicle - Get in touch with our team to discuss your technology needs.">
+  <title>Contact — Sovicle</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand">Sovicle</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+        </button>
+        <div class="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <h1>Get in <span class="gradient-text">Touch</span></h1>
+    <p>Ready to start building the future? We'd love to hear from you. Reach out and let's explore what's possible together.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Contact Form -->
+        <form id="contact-form" class="contact-form reveal">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <span class="form-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+            <span class="form-error"></span>
+          </div>
+<div class="form-group">
+  <label for="subject">Subject</label>
+  <select id="subject" name="subject" required>
+    <option value="" disabled selected hidden>Select a subject</option>
+    <option value="automation">Automation Systems</option>
+    <option value="website">Website Development</option>
+    <option value="consultation">Consultation</option>
+    <option value="support">Support & Assistance</option>
+    <option value="other">Other</option>
+  </select>
+  <span class="form-error"></span>
+</div>          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us about your requirements or ask a question..." rows="6" required></textarea>
+            <span class="form-error"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit" style="width: 100%; justify-content: center;">
+            Send Details <i class="fas fa-paper-plane"></i>
+          </button>
+          <div class="form-success">
+            <i class="fas fa-check-circle"></i> Message sent successfully! Redirecting...
+          </div>
+        </form>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <div class="card contact-card reveal">
+            <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email Us</h4>
+              <p><a href="mailto:soviclehq@gmail.com">soviclehq@gmail.com</a></p>
+            </div>
+          </div>
+<div class="card contact-card reveal">
+  <div class="contact-card-icon"><i class="fas fa-location-dot"></i></div>
+  <div>
+    <h4>Location</h4>
+    <p>Patna, Bihar</p>
+    <p>India</p>
+  </div>
+</div>
+<div class="card contact-card reveal">
+  <div class="contact-card-icon"><i class="fas fa-clock"></i></div>
+  <div>
+    <h4>Availability</h4>
+    <p>Available Throughout the Week</p>
+    <p>Responses may take a few days to weeks</p>
+  </div>
+</div>
+<div class="card contact-card reveal">
+  <div class="contact-card-icon"><i class="fas fa-gears"></i></div>
+  <div>
+    <h4>Services</h4>
+    <p>Automation Systems</p>
+    <p>Website Development</p>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Sovicle</div>
+          <p class="footer-desc">Managed automation infrastructure for businesses and institutes. Eliminating manual processes, one workflow at a time.</p>
+          <div class="footer-social">
+            <a href="mailto:soviclehq@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about">About Us</a></li>
+            <li><a href="services">Services</a></li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services">Automation Systems</a></li>
+            <li><a href="services">Website Development</a></li>
+            <li><a href="services">Consultation</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="mailto:soviclehq@gmail.com">Email Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Sovicle. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="privacy-policy">Privacy Policy</a>
+          <a href="terms">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
